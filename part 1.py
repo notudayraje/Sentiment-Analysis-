@@ -7,6 +7,8 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM,Dense, Dropout, SpatialDropout1D
 from tensorflow.keras.layers import Embedding
 
+#Processing text
+
 df = pd.read_csv("./Tweets.csv")
 
 
