@@ -43,7 +43,7 @@ def predict_sentiment(text):
     print("Predicted label: ", sentiment_label[1][prediction])
 
 
-test_sentence1 = "I enjoyed my journey on this flight."
+test_sentence1 = "MY journey was decent."
 predict_sentiment(test_sentence1)
 
 test_sentence2 = "This is the worst flight experience of my life!"
